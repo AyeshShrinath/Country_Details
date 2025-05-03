@@ -8,4 +8,5 @@ export default defineConfig({
     tailwindcss(),
     react()
   ],
+  BASE:process.env.country_Details || "/Country_Details", 
 })
